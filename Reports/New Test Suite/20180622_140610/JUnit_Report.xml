@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="242" tests="4" failures="1" errors="0">
+   <testsuite name="New Test Suite" tests="4" failures="1" errors="0" time="242" timestamp="2018-06-22 14:06:12" hostname="admin - LAPTOP-MGAQBN3O" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\admin\\Katalon Studio\\crear ausencias\\Reports\\New Test Suite\\20180622_140610"/>
+         <property name="logFiles" value="C:\\Users\\admin\\Katalon Studio\\crear ausencias\\Reports\\New Test Suite\\20180622_140610\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\admin\\Katalon Studio\\crear ausencias\\Reports\\New Test Suite\\20180622_140610\\1529669409948.png"/>
+         <property name="hostName" value="admin - LAPTOP-MGAQBN3O"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.87"/>
+         <property name="hostAddress" value="192.168.6.110"/>
+         <property name="sessionId" value="265efc8fd73548f44183d4761847a389"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/1login" classname="Test Cases/1login" status="PASSED">
+         <system-out><![CDATA[2018-06-22 14:06:13 - [TEST_CASE][PASSED] - Test Cases/1login: Test Cases/1login
+
+2018-06-22 14:06:14 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://sayes-des:9443/ProcessPortal/login.jsp'
+
+2018-06-22 14:06:25 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sayes-des:9443/ProcessPortal/login.jsp'
+
+2018-06-22 14:06:25 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-06-22 14:06:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-22 14:06:26 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-22 14:06:26 - [TEST_STEP][PASSED] - setText: Text 'aperez' is set on object 'Object Repository/input_j_username'
+
+2018-06-22 14:06:31 - [MESSAGE][PASSED] - Text 'aperez' is set on object 'Object Repository/input_j_username'
+
+2018-06-22 14:06:31 - [TEST_STEP][PASSED] - setText: Text 'Ab123456' is set on object 'Object Repository/input_j_password'
+
+2018-06-22 14:06:35 - [MESSAGE][PASSED] - Text 'Ab123456' is set on object 'Object Repository/input_j_password'
+
+2018-06-22 14:06:35 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/input_j_password'
+
+2018-06-22 14:06:39 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/input_j_password'
+
+2018-06-22 14:06:39 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-06-22 14:06:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-22 14:06:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-22 14:06:40 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/a_Acacio Perez' is present
+
+2018-06-22 14:06:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-22 14:06:41 - [MESSAGE][PASSED] - Object 'Object Repository/a_Acacio Perez' is present
+
+2018-06-22 14:06:41 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-22 14:06:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2CampoObligatorioSinRellenar" classname="Test Cases/2CampoObligatorioSinRellenar" status="PASSED">
+         <system-out><![CDATA[2018-06-22 14:06:45 - [TEST_CASE][PASSED] - Test Cases/2CampoObligatorioSinRellenar: Test Cases/2CampoObligatorioSinRellenar
+
+2018-06-22 14:06:45 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://sayes-des:9443/ProcessPortal/login.jsp'
+
+2018-06-22 14:06:52 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sayes-des:9443/ProcessPortal/login.jsp'
+
+2018-06-22 14:06:52 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-06-22 14:06:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-22 14:06:53 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-22 14:06:53 - [TEST_STEP][PASSED] - setText: Text 'aperez' is set on object 'Object Repository/input_j_username'
+
+2018-06-22 14:06:57 - [MESSAGE][PASSED] - Text 'aperez' is set on object 'Object Repository/input_j_username'
+
+2018-06-22 14:06:57 - [TEST_STEP][PASSED] - setText: Text 'Ab123456' is set on object 'Object Repository/input_j_password'
+
+2018-06-22 14:07:01 - [MESSAGE][PASSED] - Text 'Ab123456' is set on object 'Object Repository/input_j_password'
+
+2018-06-22 14:07:01 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/input_j_password'
+
+2018-06-22 14:07:05 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/input_j_password'
+
+2018-06-22 14:07:05 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-06-22 14:07:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-22 14:07:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-22 14:07:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/a_Crear Ausencia' is clicked on
+
+2018-06-22 14:07:08 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Crear Ausencia' is clicked on
+
+2018-06-22 14:07:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/button_ACEPTAR' is clicked on
+
+2018-06-22 14:07:13 - [MESSAGE][PASSED] - Object: 'Object Repository/button_ACEPTAR' is clicked on
+
+2018-06-22 14:07:15 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/font_Validation Error' is present
+
+2018-06-22 14:07:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-22 14:07:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-22 14:07:18 - [MESSAGE][PASSED] - Object 'Object Repository/font_Validation Error' is present
+
+2018-06-22 14:07:20 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-22 14:07:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/5SolicitudCorrectaDiferenteMotivo" classname="Test Cases/5SolicitudCorrectaDiferenteMotivo" status="PASSED">
+         <system-out><![CDATA[2018-06-22 14:07:24 - [TEST_CASE][PASSED] - Test Cases/5SolicitudCorrectaDiferenteMotivo: Test Cases/5SolicitudCorrectaDiferenteMotivo
+
+2018-06-22 14:07:24 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://sayes-des:9443/ProcessPortal/login.jsp'
+
+2018-06-22 14:07:31 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sayes-des:9443/ProcessPortal/login.jsp'
+
+2018-06-22 14:07:31 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-06-22 14:07:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-22 14:07:32 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-22 14:07:32 - [TEST_STEP][PASSED] - setText: Text 'aperez' is set on object 'Object Repository/input_j_username'
+
+2018-06-22 14:07:36 - [MESSAGE][PASSED] - Text 'aperez' is set on object 'Object Repository/input_j_username'
+
+2018-06-22 14:07:36 - [TEST_STEP][PASSED] - setText: Text 'Ab123456' is set on object 'Object Repository/input_j_password'
+
+2018-06-22 14:07:40 - [MESSAGE][PASSED] - Text 'Ab123456' is set on object 'Object Repository/input_j_password'
+
+2018-06-22 14:07:40 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/input_j_password'
+
+2018-06-22 14:07:44 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/input_j_password'
+
+2018-06-22 14:07:44 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-06-22 14:07:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-22 14:07:45 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-22 14:07:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/a_Crear Ausencia' is clicked on
+
+2018-06-22 14:07:47 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Crear Ausencia' is clicked on
+
+2018-06-22 14:07:47 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [3] are selected on object 'Object Repository/select_--Select--motivoAusencia'
+
+2018-06-22 14:08:01 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/select_--Select--motivoAusencia'
+
+2018-06-22 14:08:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/button_ACEPTAR' is clicked on
+
+2018-06-22 14:08:07 - [MESSAGE][PASSED] - Object: 'Object Repository/button_ACEPTAR' is clicked on
+
+2018-06-22 14:08:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/button_CONFIRMAR' is clicked on
+
+2018-06-22 14:08:13 - [MESSAGE][PASSED] - Object: 'Object Repository/button_CONFIRMAR' is clicked on
+
+2018-06-22 14:08:17 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/a_Crear Ausencia' is present
+
+2018-06-22 14:08:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-22 14:08:18 - [MESSAGE][PASSED] - Object 'Object Repository/a_Crear Ausencia' is present
+
+2018-06-22 14:08:18 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-22 14:08:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4SolicitudCorrecta" classname="Test Cases/4SolicitudCorrecta" status="PASSED">
+         <system-out><![CDATA[2018-06-22 14:08:22 - [TEST_CASE][PASSED] - Test Cases/4SolicitudCorrecta: Test Cases/4SolicitudCorrecta
+
+2018-06-22 14:08:22 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://sayes-des:9443/ProcessPortal/login.jsp'
+
+2018-06-22 14:08:28 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sayes-des:9443/ProcessPortal/login.jsp'
+
+2018-06-22 14:08:28 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-06-22 14:08:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-22 14:08:30 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-22 14:08:30 - [TEST_STEP][PASSED] - setText: Text 'aperez' is set on object 'Object Repository/input_j_username'
+
+2018-06-22 14:08:34 - [MESSAGE][PASSED] - Text 'aperez' is set on object 'Object Repository/input_j_username'
+
+2018-06-22 14:08:34 - [TEST_STEP][PASSED] - setText: Text 'Ab123456' is set on object 'Object Repository/input_j_password'
+
+2018-06-22 14:08:38 - [MESSAGE][PASSED] - Text 'Ab123456' is set on object 'Object Repository/input_j_password'
+
+2018-06-22 14:08:38 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/input_j_password'
+
+2018-06-22 14:08:43 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/input_j_password'
+
+2018-06-22 14:08:43 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-06-22 14:08:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-22 14:08:44 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-22 14:08:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/a_Crear Ausencia' is clicked on
+
+2018-06-22 14:08:46 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Crear Ausencia' is clicked on
+
+2018-06-22 14:08:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/input_ao de cargoao de cargo obligatorio' is clicked on
+
+2018-06-22 14:08:51 - [MESSAGE][PASSED] - Object: 'Object Repository/input_ao de cargoao de cargo obligatorio' is clicked on
+
+2018-06-22 14:08:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/button_ACEPTAR' is clicked on
+
+2018-06-22 14:08:57 - [MESSAGE][PASSED] - Object: 'Object Repository/button_ACEPTAR' is clicked on
+
+2018-06-22 14:08:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/button_CONFIRMAR' is clicked on
+
+2018-06-22 14:09:03 - [MESSAGE][PASSED] - Object: 'Object Repository/button_CONFIRMAR' is clicked on
+
+2018-06-22 14:09:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/a_Crear Ausencia' is present
+
+2018-06-22 14:09:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-22 14:09:08 - [MESSAGE][PASSED] - Object 'Object Repository/a_Crear Ausencia' is present
+
+2018-06-22 14:09:08 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-22 14:09:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/3FechaIncorrecta" classname="Test Cases/3FechaIncorrecta" status="FAILED">
+         <failure type="FAILED" message="Unable to set text '2018-06-19' of object 'Object Repository/input_input-block-levelFechaFinal' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/input_input-block-levelFechaFinal' located by 'By.xpath: id(&quot;div_9&quot;)/div[@class=&quot;control-group&quot;]/div[@class=&quot;controls&quot;]/input[@class=&quot;input-block-level&quot;]' not found)"/>
+         <system-out><![CDATA[2018-06-22 14:09:11 - [TEST_CASE][FAILED] - Test Cases/3FechaIncorrecta: Test Cases/3FechaIncorrecta FAILED because (of) Unable to set text '2018-06-19' of object 'Object Repository/input_input-block-levelFechaFinal' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/input_input-block-levelFechaFinal' located by 'By.xpath: id("div_9")/div[@class="control-group"]/div[@class="controls"]/input[@class="input-block-level"]' not found)
+
+2018-06-22 14:09:12 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://sayes-des:9443/ProcessPortal/login.jsp'
+
+2018-06-22 14:09:18 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sayes-des:9443/ProcessPortal/login.jsp'
+
+2018-06-22 14:09:18 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-06-22 14:09:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-22 14:09:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-22 14:09:19 - [TEST_STEP][PASSED] - setText: Text 'aperez' is set on object 'Object Repository/input_j_username'
+
+2018-06-22 14:09:23 - [MESSAGE][PASSED] - Text 'aperez' is set on object 'Object Repository/input_j_username'
+
+2018-06-22 14:09:23 - [TEST_STEP][PASSED] - setText: Text 'Ab123456' is set on object 'Object Repository/input_j_password'
+
+2018-06-22 14:09:27 - [MESSAGE][PASSED] - Text 'Ab123456' is set on object 'Object Repository/input_j_password'
+
+2018-06-22 14:09:27 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/input_j_password'
+
+2018-06-22 14:09:32 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/input_j_password'
+
+2018-06-22 14:09:32 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-06-22 14:09:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-22 14:09:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-22 14:09:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/a_Crear Ausencia' is clicked on
+
+2018-06-22 14:09:35 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Crear Ausencia' is clicked on
+
+2018-06-22 14:09:35 - [TEST_STEP][FAILED] - setText: Unable to set text '2018-06-19' of object 'Object Repository/input_input-block-levelFechaFinal' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/input_input-block-levelFechaFinal' located by 'By.xpath: id("div_9")/div[@class="control-group"]/div[@class="controls"]/input[@class="input-block-level"]' not found)
+
+2018-06-22 14:10:11 - [MESSAGE][FAILED] - Unable to set text '2018-06-19' of object 'Object Repository/input_input-block-levelFechaFinal' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/input_input-block-levelFechaFinal' located by 'By.xpath: id("div_9")/div[@class="control-group"]/div[@class="controls"]/input[@class="input-block-level"]' not found)
+[[ATTACHMENT|C:\\Users\\admin\\Katalon Studio\\crear ausencias\\Reports\\New Test Suite\\20180622_140610\\1529669409948.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-22 14:09:11 - [TEST_CASE][FAILED] - Test Cases/3FechaIncorrecta: Test Cases/3FechaIncorrecta FAILED because (of) Unable to set text '2018-06-19' of object 'Object Repository/input_input-block-levelFechaFinal' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/input_input-block-levelFechaFinal' located by 'By.xpath: id("div_9")/div[@class="control-group"]/div[@class="controls"]/input[@class="input-block-level"]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-22 14:06:12 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/3FechaIncorrecta FAILED because (of) Unable to set text '2018-06-19' of object 'Object Repository/input_input-block-levelFechaFinal' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/input_input-block-levelFechaFinal' located by 'By.xpath: id("div_9")/div[@class="control-group"]/div[@class="controls"]/input[@class="input-block-level"]' not found)]]></system-out>
+      <system-err><![CDATA[2018-06-22 14:06:12 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/3FechaIncorrecta FAILED because (of) Unable to set text '2018-06-19' of object 'Object Repository/input_input-block-levelFechaFinal' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/input_input-block-levelFechaFinal' located by 'By.xpath: id("div_9")/div[@class="control-group"]/div[@class="controls"]/input[@class="input-block-level"]' not found)]]></system-err>
+   </testsuite>
+</testsuites>
